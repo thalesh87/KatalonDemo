@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Suite1,Firefox 69.0,,2019-12-08 12:15:18,2019-12-08 12:15:43,24.260s,PASSED
+,,,,,,
+Test Cases/test1,Firefox 69.0,,2019-12-08 12:15:19,2019-12-08 12:15:43,23.618s,PASSED
+"openBrowser("""")",Firefox 69.0,,2019-12-08 12:15:19,2019-12-08 12:15:28,8.609s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/"")",Firefox 69.0,,2019-12-08 12:15:28,2019-12-08 12:15:32,4.356s,PASSED
+"click(findTestObject(""Object Repository/span_Username""))",Firefox 69.0,,2019-12-08 12:15:32,2019-12-08 12:15:33,0.354s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:33,2019-12-08 12:15:33,0.168s,PASSED
+"setText(findTestObject(""Object Repository/input_LOGIN Panel_txtUsername""), ""Admin"")",Firefox 69.0,,2019-12-08 12:15:33,2019-12-08 12:15:33,0.223s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:33,2019-12-08 12:15:33,0.113s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/input_Username_txtPassword""), ""hUKwJTbofgPU9eVlw/CnDQ=="")",Firefox 69.0,,2019-12-08 12:15:33,2019-12-08 12:15:34,0.287s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:34,2019-12-08 12:15:34,0.092s,PASSED
+"click(findTestObject(""Object Repository/input_Password_Submit""))",Firefox 69.0,,2019-12-08 12:15:34,2019-12-08 12:15:36,2.327s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:36,2019-12-08 12:15:36,0.119s,PASSED
+"click(findTestObject(""Object Repository/b_Admin""))",Firefox 69.0,,2019-12-08 12:15:36,2019-12-08 12:15:37,0.753s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:37,2019-12-08 12:15:37,0.075s,PASSED
+"click(findTestObject(""Object Repository/b_PIM""))",Firefox 69.0,,2019-12-08 12:15:37,2019-12-08 12:15:38,0.734s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:38,2019-12-08 12:15:38,0.072s,PASSED
+"click(findTestObject(""Object Repository/b_Leave""))",Firefox 69.0,,2019-12-08 12:15:38,2019-12-08 12:15:39,1.698s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:39,2019-12-08 12:15:39,0.080s,PASSED
+"click(findTestObject(""Object Repository/b_Time""))",Firefox 69.0,,2019-12-08 12:15:39,2019-12-08 12:15:41,1.060s,PASSED
+takeScreenshot(),Firefox 69.0,,2019-12-08 12:15:41,2019-12-08 12:15:41,0.074s,PASSED
+closeBrowser(),Firefox 69.0,,2019-12-08 12:15:41,2019-12-08 12:15:43,1.919s,PASSED

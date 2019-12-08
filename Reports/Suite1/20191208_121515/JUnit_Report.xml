@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Suite1" time="24" tests="1" failures="0" errors="0">
+   <testsuite name="Suite1" tests="1" failures="0" errors="0" time="24" timestamp="2019-12-08 12:15:18" hostname="C5281583 - INLN50946832A.apj.global.corp.sap" id="Test Suites/Suite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515"/>
+         <property name="logFiles" value="C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787533258.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787533616.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787534018.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787536436.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787537308.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787538119.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787539890.png, C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787541036.png"/>
+         <property name="hostName" value="C5281583 - INLN50946832A.apj.global.corp.sap"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Firefox 69.0"/>
+         <property name="hostAddress" value="10.37.177.186"/>
+         <property name="sessionId" value="6cddbbee-7709-41ed-8469-aefa0828dee8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/test1" classname="Test Cases/test1" status="PASSED">
+         <system-out><![CDATA[2019-12-08 12:15:19 - [TEST_CASE][PASSED] - Test Cases/test1: Test Cases/test1
+
+2019-12-08 12:15:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-12-08 12:15:20 - [MESSAGE][INFO] - Starting 'Firefox (headless)' driver
+
+2019-12-08 12:15:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-12-08 12:15:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-12-08 12:15:28 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/"): Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-12-08 12:15:32 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2019-12-08 12:15:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/span_Username")): Object: 'Object Repository/span_Username' is clicked on
+
+2019-12-08 12:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/span_Username' is clicked on
+
+2019-12-08 12:15:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787533258.png]]
+
+2019-12-08 12:15:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/input_LOGIN Panel_txtUsername"), "Admin"): Text 'Admin' is set on object 'Object Repository/input_LOGIN Panel_txtUsername'
+
+2019-12-08 12:15:33 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/input_LOGIN Panel_txtUsername'
+
+2019-12-08 12:15:33 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:33 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787533616.png]]
+
+2019-12-08 12:15:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/input_Username_txtPassword"), "hUKwJTbofgPU9eVlw/CnDQ=="): Text ****** has been set on object 'Object Repository/input_Username_txtPassword'
+
+2019-12-08 12:15:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/input_Username_txtPassword'
+
+2019-12-08 12:15:34 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:34 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787534018.png]]
+
+2019-12-08 12:15:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/input_Password_Submit")): Object: 'Object Repository/input_Password_Submit' is clicked on
+
+2019-12-08 12:15:36 - [MESSAGE][PASSED] - Object: 'Object Repository/input_Password_Submit' is clicked on
+
+2019-12-08 12:15:36 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:36 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787536436.png]]
+
+2019-12-08 12:15:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/b_Admin")): Object: 'Object Repository/b_Admin' is clicked on
+
+2019-12-08 12:15:37 - [MESSAGE][PASSED] - Object: 'Object Repository/b_Admin' is clicked on
+
+2019-12-08 12:15:37 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787537308.png]]
+
+2019-12-08 12:15:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/b_PIM")): Object: 'Object Repository/b_PIM' is clicked on
+
+2019-12-08 12:15:38 - [MESSAGE][PASSED] - Object: 'Object Repository/b_PIM' is clicked on
+
+2019-12-08 12:15:38 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:38 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787538119.png]]
+
+2019-12-08 12:15:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/b_Leave")): Object: 'Object Repository/b_Leave' is clicked on
+
+2019-12-08 12:15:39 - [MESSAGE][PASSED] - Object: 'Object Repository/b_Leave' is clicked on
+
+2019-12-08 12:15:39 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787539890.png]]
+
+2019-12-08 12:15:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/b_Time")): Object: 'Object Repository/b_Time' is clicked on
+
+2019-12-08 12:15:41 - [MESSAGE][PASSED] - Object: 'Object Repository/b_Time' is clicked on
+
+2019-12-08 12:15:41 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2019-12-08 12:15:41 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\C5281583\\Katalon Studio\\demo\\Reports\\Suite1\\20191208_121515\\1575787541036.png]]
+
+2019-12-08 12:15:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-12-08 12:15:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-12-08 12:15:18 - [TEST_SUITE][PASSED] - Suite1: Test Cases/test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
